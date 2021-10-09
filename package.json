@@ -1,0 +1,27 @@
+{
+  "name": "api-pedrapapeltesoura",
+  "version": "1.0.0",
+  "description": "- Criar frontend\r - Criar uma API\r - Criar uma rota pra entregar um valor aleatório pro frontend (pedra,  papel ou tesoura)\r - No frontend você escolhe um valor (pedra,  papel, tesoura) e clica em jogar\r - Ao clicar em  jogar, a api envia um valor (pedra,  papel, tesoura) aleatório pro front\r - Comparar os valores e adicionar um ponto pro vencedor\r - Vence quem acumular mais pontos em 3 rodadas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JadeOhara/API-PedraPapelTesoura.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JadeOhara/API-PedraPapelTesoura/issues"
+  },
+  "homepage": "https://github.com/JadeOhara/API-PedraPapelTesoura#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}

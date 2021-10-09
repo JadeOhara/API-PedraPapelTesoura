@@ -12,3 +12,22 @@
 
 ## Como Rodar
 
+1. Clonar o repositório para sua máquina local
+~~~Git Bash
+git clone https://github.com/JadeOhara/API-PedraPapelTesoura.git
+~~~
+
+2. Abrir o repositório no VS Code
+~~~VS Code
+VS Code
+~~~
+
+3. No terminal na pasta do projeto, instalar as dependências
+~~~Terminal
+npm install
+~~~
+
+4. Ainda no terminal, dê o comando para rodar o projeto
+~~~Terminal
+npm start
+~~~
