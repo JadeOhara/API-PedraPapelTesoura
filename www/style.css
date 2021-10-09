@@ -80,7 +80,7 @@ ul#person-choice li a:hover {
 }
 
 #person > li, #computer >  li {
-    style:none;
+    list-style: none;
 }
 
 .buttonPlay {
