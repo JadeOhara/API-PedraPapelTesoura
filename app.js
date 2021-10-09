@@ -15,9 +15,12 @@ const jogoPPT =  {
         3: "tesoura"
 }
 
+let computerChoice = ''
+
 app.get('/play', (req, res) => {
     const random = Math.floor(Math.random() * 3 + 1);
-    res.send(jogoPPT[random])
+    computerChoice = jogoPPT[random]
+    res.send(computerChoice)
 })
 
 app.listen(port, () => {

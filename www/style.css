@@ -67,15 +67,19 @@ ul#person-choice, ul#computer-choice {
     padding: 0;
 }
 
-ul#person-choice li, ul#computer-choice li {
+ul#person-choice li,
+ul#computer-choice li {
     display:inline;
 }
 
-ul#person-choice li a, ul#computer-choice li a {
+ul#person-choice li a,
+ul#computer-choice li a {
     opacity: .3;
 }
 
-ul#person-choice li a:hover {
+ul#person-choice li a:hover,
+ul#person-choice li a.selected,
+ul#computer-choice li a.selected {
     opacity: 1;
 }
 
