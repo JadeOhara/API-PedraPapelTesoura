@@ -1,0 +1,158 @@
+body{
+    background-color: black;
+    color:white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Georama', sans-serif;
+}
+
+#title {
+    font-style: italic;
+    color:rgb(243, 52, 195);
+}
+
+.game {
+    background-color:rgb(20, 6, 29);
+    padding: 10px;
+    width: 800px;
+    border-radius: 20px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.game > img {
+    width: 20px;
+    height: 20px;
+}
+
+#person, #computer {
+    height: flex;
+}
+
+#person {
+    background-color: rgb(58, 14, 58);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 42%;
+    position:relative;
+    float: left;
+}
+
+#versus {
+    padding-top: 80px;
+    padding-right: 6px;
+    width: 5%;
+    height: 180px;
+    float: left;
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+}
+
+#computer {
+    background-color: rgb(58, 14, 58);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 42%;
+    position:relative;
+    float: left;
+}
+
+ul#person-choice, ul#computer-choice {
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+ul#person-choice li, ul#computer-choice li {
+    display:inline;
+}
+
+ul#person-choice li a, ul#computer-choice li a {
+    opacity: .3;
+}
+
+ul#person-choice li a:hover {
+    opacity: 1;
+}
+
+#person > li, #computer >  li {
+    style:none;
+}
+
+.buttonPlay {
+    width:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float:left;
+}
+
+.results .result {
+    background-color: rgb(37, 7, 37);
+    width: 28%;
+    float:left;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.winner {
+    width:100%;
+    float:left;
+    color: rgb(233, 14, 98);
+}
+
+.buttonPlay > button {
+    --glow-color: rgb(231, 209, 252);
+    --glow-spread-color: rgba(188, 73, 192, 0.781);
+    --enhanced-glow-color: rgb(81, 55, 105);
+    --btn-color: rgba(131, 35, 134, 0.781);
+    outline: none;
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 16px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+   }
+   
+   .buttonPlay > button::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+   }
+   
+   .buttonPlay > button:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 2em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+   }
+   
+   .buttonPlay > button:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+           0 0 2.5em 2em var(--glow-spread-color),
+           inset 0 0 .5em .25em var(--glow-color);
+   }
+
+
