@@ -64,9 +64,14 @@ function play(personChoice) {
             document.getElementById("computer-" + computerChoice).classList.add("selected")
             //até aqui ok
 
-            //corrigir isso
+            //corrigir isso - mostrar pontuação
             $('#person-points').val(`Pontuação ${personPoints}`)
             $('#computer-points').val(`Pontuação ${computerPoints}`)
+
+            //verificar quem consegue 3 pontos primeiro
+            //mostrar o Vencedor
+            //mostrar botão jogar Novamente
+            //limpar as variáveis ao reiniciar o jogo
 
             console.log("computerPoints ", computerPoints)
             console.log("personPoints ", personPoints)
