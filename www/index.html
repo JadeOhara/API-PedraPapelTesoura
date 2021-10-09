@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Jogo Pedra Papel Tesoura</title>
 </head>
+
 <body>
-    
+    <h1>Jogo Pedra Papel Tesoura</h1>
+    <div class="player">
+        <h2>Você</h2>
+        <select name="jogoPPT">
+            <option value="pedra">Pedra</option>
+            <option value="papel">Papel</option>
+            <option value="tesoura">Tesoura</option>
+        </select>
+        <button onclick="play()">Jogar</button>
+    </div>
+
+    <div class="player">
+        <h2>Computador</h2>
+    </div>
+
+        <div class="results">
+            <div class="result">
+                <h2>Resultado 1</h2>
+                <h3>Vencedor  1</h3>
+            </div>
+            <div class="result">
+                <h2>Resultado 2</h2>
+                <h3>Vencedor 2</h3>
+            </div>
+            <div class="result">
+                <h2>Resultado 3</h2>
+                <h3>Vencedor 3</h3>
+            </div>
+        </div>
+
+        <div class="vencedor">
+            <h2>Vencedor do Jogo</h2>
+        </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="init.js"></script>
 </body>
+
 </html>
