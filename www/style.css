@@ -44,7 +44,7 @@ body{
     padding-top: 80px;
     padding-right: 6px;
     width: 5%;
-    height: 180px;
+    height: 140px;
     float: left;
     text-align: center;
     font-style: italic;
@@ -89,24 +89,31 @@ ul#computer-choice li a.selected {
 
 .buttonPlay {
     width:100%;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 10px;
     float:left;
-}
-
-.results .result {
-    background-color: rgb(37, 7, 37);
-    width: 28%;
-    float:left;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
+    height: 80px;
 }
 
 .winner {
     width:100%;
     float:left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 60px;
+}
+
+#who-won {
     color: rgb(233, 14, 98);
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+.rules {
+    width:100%;
+    float:left;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .buttonPlay > button {

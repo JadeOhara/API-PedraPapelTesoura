@@ -16,6 +16,17 @@
 <body>
     <div class="game">
         <h1 id="title">JOKENPÔ</h1>
+        <div class="rules">
+            <details>
+                <summary>Regras</summary>
+                <p>
+                    Pedra ganha da tesoura (amassando-a ou quebrando-a).<br>
+                    Tesoura ganha do papel (cortando-o).<br>
+                    Papel ganha da pedra (embrulhando-a).<br><br>
+                    Quem fizer 3 pontos primeiro, ganha.
+                </p>
+            </details>
+        </div>
         <div id="person">
             <h2>Você</h2>
             <ul id="person-choice">
@@ -38,13 +49,14 @@
             <p id="computer-points">Pontuação: 0</p>
         </div>
 
-        <div class="buttonPlay">
-            <button onclick="play()" hidden >Jogar Novamente</button>
+        <div class="winner">
+            <h2 id="who-won"></h2>
         </div>
 
-        <div class="winner">
-            <h2 id="who-won" hidden>Vencedor do Jogo</h2>
+        <div class="buttonPlay" hidden>
+            <button id="play-button" onclick="play()">Jogar Novamente</button>
         </div>
+
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
