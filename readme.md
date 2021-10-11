@@ -35,6 +35,7 @@ http://localhost:3000
 ## Confira o front
 
 Veja uma prévia de como ficou o [Jogo JoKenPô](https://jadeohara.github.io/API-PedraPapelTesoura/www/index.html)
+
 Pra ver funcionando 100%, use as instruções de como rodar.
 
 Esse jogo consome uma API que responde as escolhas do computador.
