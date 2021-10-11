@@ -17,17 +17,19 @@
 git clone https://github.com/JadeOhara/API-PedraPapelTesoura.git
 ~~~
 
-2. Abrir o repositório no VS Code
-~~~VS Code
-VS Code
-~~~
+2. Abrir o repositório no VS Code ou outro editor de código
 
-3. No terminal na pasta do projeto, instalar as dependências
+3. No terminal, na pasta do projeto, instale as dependências
 ~~~Terminal
 npm install
 ~~~
 
 4. Ainda no terminal, dê o comando para rodar o projeto
 ~~~Terminal
-npm start
+node app.js
+~~~
+
+5. Com o projeto rodando, abra o seguinte link em algum navegador
+~~~Terminal
+http://localhost:3000
 ~~~
