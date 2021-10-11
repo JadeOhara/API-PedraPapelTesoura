@@ -10,7 +10,7 @@
 
 ## Como Rodar
 
-1. Clonar o repositório para sua máquina local
+1. Clonar o repositório para sua máquina local usando esse comando no GitBash
 ~~~Git Bash
 git clone https://github.com/JadeOhara/API-PedraPapelTesoura.git
 ~~~
